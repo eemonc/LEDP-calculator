@@ -1,0 +1,68 @@
+* {
+	font-family: roboto;
+}
+
+body {
+	background-color: #fffccc;
+}
+
+h1,
+p {
+	text-align: center;
+	margin: 0;
+}
+
+.container {
+	width: 300px;
+	height: 450px;
+	margin: 40px auto;
+	border-radius: 10px;
+	background: #fffccc;
+	box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #b6a9a9;
+}
+
+.cal {
+	width: 200px;
+	margin: 20px auto;
+}
+
+#display {
+	border: none;
+	outline: none;
+	color: black;
+	text-align: right;
+	font-weight: 600;
+	padding: 15px;
+	margin: 30px 0 20px 0;
+	background: transparent;
+	box-shadow: inset 2px 2px 5px #babecc, inset 0 0 10px #babecc;
+	;
+}
+
+.button {
+	margin: 15px 0 0 5px;
+	width: 42px;
+	height: 42px;
+	border: none outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	background: rgb(214, 214, 214);
+	box-shadow: 2px 2px 5px #b6acac, 0 0 5px #b6acac;
+	display: inline-block;
+}
+
+.button:active {
+	box-shadow: 1px 1px 2px #b6acac, -1px -1px 2px #b6acac;
+}
+
+.clear-btn {
+	background: red;
+	color: #fff;
+}
+
+.math-btn {
+	background: black;
+	color: #fff;
+}
